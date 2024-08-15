@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OpenInAppAssignment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="good_morning">Good morning</string>
+    <string name="top_links">Top Links</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

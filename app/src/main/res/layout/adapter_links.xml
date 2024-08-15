@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="116dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imvIcon"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtLinkName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sample link"
+                    android:textColor="#000000"
+                    android:textFontWeight="400"
+                    android:textSize="14sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="22 Aug 2022"
+                    android:textColor="#999CA0"
+                    android:textFontWeight="400"
+                    android:textSize="12sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtClicks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="139"
+                        android:textColor="#000000"
+                        android:textFontWeight="600"
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="Clicks"
+                        android:textColor="#999CA0"
+                        android:textFontWeight="400"
+                        android:textSize="12sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/dotted_border"
+            android:paddingHorizontal="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtLink"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:textColor="#0E6FFF"
+                android:textFontWeight="400"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/vCopy"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/ic_copy" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
